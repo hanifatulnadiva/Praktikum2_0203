@@ -59,6 +59,17 @@ class landingpage extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 10,),
+                  
+                  Text(
+                    "Hallo Coba Stateful Widget",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      letterSpacing: 2,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.grey.shade500,
+                    ),
+                  ),
                 ],
               ),
             ],
