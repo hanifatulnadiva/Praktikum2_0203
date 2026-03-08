@@ -86,6 +86,14 @@ class landingpage extends StatelessWidget {
                     )
                   ]    
                 ),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 40),
+                  child: Column(
+                    children: [
+                      Image.asset("public/images/1.jpg", width: 200,height: 200,)
+                    ],
+                  ),
+                ),                
               )
             ],
           ),
