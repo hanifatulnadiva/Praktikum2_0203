@@ -31,7 +31,14 @@ class landingpage extends StatelessWidget {
         icon: Icon(Icons.settings))],
       ),
       body: Container(
-        
+        width: double.infinity,
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end:Alignment.bottomCenter,
+            colors: [Colors.blue.shade50, const Color (0xFFE6E9EF)],
+          ),
+        ),
       ),
     ); 
   }
