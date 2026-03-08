@@ -14,3 +14,11 @@ class _inputState extends State<input> {
   }
 }
 
+class landingpage extends StatelessWidget {
+  const landingpage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
+}
