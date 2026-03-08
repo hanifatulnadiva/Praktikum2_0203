@@ -124,6 +124,25 @@ class landingpage extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 40),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("20230140203",
+                    style: TextStyle(
+                      fontSize: 15,
+                      color: const Color.fromARGB(255, 8, 8, 8),
+                      letterSpacing: 2
+                    ),
+                  ),
+                  Text("Hanifatul Nadiva",
+                    style: TextStyle(
+                      fontSize: 15,
+                      color: const Color.fromARGB(255, 0, 0, 0),
+                      letterSpacing: 2
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
