@@ -1,17 +1,14 @@
-# statefull_stateless
+# Praktikkum2_0203
 
-A new Flutter project.
+NAMA  = HANIFATUL NADIVA <br>
+NIM   = 20230140203 <br>
+KELAS = A
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## DOKUMENTASI
+|KET|GAMBAR|
+|---|---|
+|Tugas|<img width="1080" height="2160" alt="Screenshot_1772966900" src="https://github.com/user-attachments/assets/800f8b06-9cec-4fd9-8667-5efe74bcf47c" />|
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|STATELESS WIDGET|<img width="1080" height="2160" alt="Screenshot_1772790413" src="https://github.com/user-attachments/assets/74fecaed-11b9-4754-af81-86733987b6b9" />|
+|STATEFUL WIDGET|<img width="1080" height="2160" alt="Screenshot_1772790491" src="https://github.com/user-attachments/assets/bd304103-c4d0-4ae2-b3ca-c61ec97d8bb9" />|
