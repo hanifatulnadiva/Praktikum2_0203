@@ -22,8 +22,14 @@ class landingpage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF0F4F8),
       appBar: AppBar(
-        
-      )
+        backgroundColor: Colors.blue.shade50,
+        leading: IconButton(onPressed:(){
+          Navigator.pop(context);
+        }, icon: Icon(Icons.arrow_back)),
+
+        actions: [IconButton(onPressed: (){},
+        icon: Icon(Icons.settings))],
+      ),
     ); 
   }
 }
