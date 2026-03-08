@@ -42,6 +42,9 @@ class landingpage extends StatelessWidget {
         child: Padding(
           padding:const EdgeInsets.symmetric(horizontal: 60,
           vertical: 40),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+          ),
         ),
       ),
     ); 
