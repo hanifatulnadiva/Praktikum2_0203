@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class homelayout extends StatefulWidget {
-  const homelayout({super.key});
+class input extends StatefulWidget {
+  const input({super.key});
 
   @override
-  State<homelayout> createState() => _homelayoutState();
+  State<input> createState() => _inputState();
 }
 
-class _homelayoutState extends State<homelayout> {
+class _inputState extends State<input> {
   @override
   Widget build(BuildContext context) {
     return Container();
