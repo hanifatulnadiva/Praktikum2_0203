@@ -95,7 +95,7 @@ class landingpage extends StatelessWidget {
                   ),
                 ),                
               ),
-              SizedBox(height: 40),
+              SizedBox(height: 100),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
