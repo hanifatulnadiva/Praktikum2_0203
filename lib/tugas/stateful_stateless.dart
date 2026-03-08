@@ -47,6 +47,19 @@ class landingpage extends StatelessWidget {
             children: [
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "Praktikum 2",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      letterSpacing: 2,
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                  ),
+                  const SizedBox(height: 10,),
+                ],
               ),
             ],
           ),
