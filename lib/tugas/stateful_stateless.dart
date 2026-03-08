@@ -39,6 +39,10 @@ class landingpage extends StatelessWidget {
             colors: [Colors.blue.shade50, const Color (0xFFE6E9EF)],
           ),
         ),
+        child: Padding(
+          padding:const EdgeInsets.symmetric(horizontal: 60,
+          vertical: 40),
+        ),
       ),
     ); 
   }
