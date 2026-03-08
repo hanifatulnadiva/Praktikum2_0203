@@ -96,6 +96,33 @@ class landingpage extends StatelessWidget {
                 ),                
               ),
               SizedBox(height: 40),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                      foregroundColor: Colors.black,
+                      minimumSize: Size(150,40)
+                    ),
+                    onPressed: () {},
+                    child: Text("Cancel"),
+                  ),
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color.fromARGB(255, 4, 3, 41),
+                      minimumSize: Size(150,40)
+                    ),
+                    onPressed: () {},
+                    child: Text("Save",
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.white
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
