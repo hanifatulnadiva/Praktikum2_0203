@@ -71,7 +71,9 @@ class landingpage extends StatelessWidget {
                     ),
                   ),
                 ],
+              
               ),
+              SizedBox(height: 100),
             ],
           ),
         ),
