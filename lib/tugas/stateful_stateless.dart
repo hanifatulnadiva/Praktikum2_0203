@@ -30,6 +30,9 @@ class landingpage extends StatelessWidget {
         actions: [IconButton(onPressed: (){},
         icon: Icon(Icons.settings))],
       ),
+      body: Container(
+        
+      ),
     ); 
   }
 }
