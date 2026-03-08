@@ -20,5 +20,6 @@ class landingpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold();
+    backgroundColor: const Color(0xFFF0F4F8)
   }
 }
