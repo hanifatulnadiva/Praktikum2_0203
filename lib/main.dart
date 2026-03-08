@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
- import 'package:statefull_stateless/stateful/stateful.dart';
-//import 'package:statefull_stateless/stateless/stateless.dart';
+// import 'package:statefull_stateless/stateful/stateful.dart';
+import 'package:statefull_stateless/stateless/stateless.dart';
+import 'package:statefull_stateless/tugas/stateful_stateless.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const SimpleStateful(),
+      home: const landingpage(),
     );
   }
 }
