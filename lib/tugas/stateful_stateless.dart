@@ -44,6 +44,11 @@ class landingpage extends StatelessWidget {
           vertical: 40),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+              ),
+            ],
           ),
         ),
       ),
